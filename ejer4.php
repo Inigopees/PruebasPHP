@@ -1,17 +1,17 @@
 <html>
 	<head>
-		<title>ejer4</title>
+		<title>ejer5</title>
 	</head>
 	<body>
 		<?php
-			$numero=rand(1,300);
-			
-			if($numero%3==0){
-				echo "el numero ".$numero." es multiplo de 3";
+			$cadena="oho";
+			$cadena2= strrev($cadena);
+			if($cadena == $cadena2){
+				echo "La frase es palindroma";
 			}
 			else
 			{
-				echo "el numero ".$numero." no es multiplo de 3";
+				echo "La frase no es palindroma";
 			}
 		?>
 	</body>
