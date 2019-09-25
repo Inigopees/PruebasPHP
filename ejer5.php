@@ -5,7 +5,7 @@
 	<body>
 		<?php
 			$edad1=9;
-			$altura1= 110;
+			$altura1=110;
 			$edad2=5;
 			$acompañado="si";
 
