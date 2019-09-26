@@ -9,10 +9,18 @@
 			$cantidad=100;
 			$resultado=1;
 
-			while($resultado<100){
-				echo "<li>".$resultado."</li>";
-				
+			for($i=1;$i<=$cantidad;$i++){
+				$resultado=pow($potencia,$i);
+				if($resultado>100){
+					$i=$cantidad;
+				}
+				else
+				{
+					echo "<li>".$resultado."</li>";
+				}
 			}
+				
+			
 		?>
 		</ul>
 	</body>
